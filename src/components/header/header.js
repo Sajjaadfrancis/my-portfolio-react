@@ -48,16 +48,8 @@ export default class Header extends Component {
             <div className="banner-text">
               <h1 className="responsive-headline">Sajjaad Francis</h1>
               <h3>
-                <span>HTML / CSS | JavaScript | React | Python</span>
+                <span>Grab a few snacks, scroll down, and get to know me</span>
                 <hr />
-                Let's{" "}
-                <a className="smoothscroll" href="#about">
-                  start scrolling{" "}
-                </a>
-                and learn more{" "}
-                <a className="smoothscroll" href="#about">
-                  about me
-                </a>
               </h3>
               <ul className="social">
                 <li>

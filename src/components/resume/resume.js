@@ -21,7 +21,6 @@ export default class Resume extends Component {
                   <p>Matriculated in 2014 from Islamia College.</p>
                 </div>
               </div>{" "}
-              {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
                   <h3>Varsity College</h3>
@@ -88,8 +87,6 @@ export default class Resume extends Component {
               </div>{" "}
             </div>{" "}
           </div>{" "}
-          {/* Skills
------------------------------------------------ */}
           <div className="row skill">
             <div className="three columns header-col">
               <h1>

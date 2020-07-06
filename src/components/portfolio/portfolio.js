@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Grab some more snacks, here are a few of my projects:</h1>
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
@@ -14,11 +14,14 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01" title>
-                      <img alt="" src="images/portfolio/coffee.jpg" />
+                      <img
+                        alt=""
+                        src="https://icons-for-free.com/iconfiles/png/512/code+collaboration+github+network+round+social+icon-1320086084536018107.png"
+                      />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Coffee</h5>
-                          <p>Illustrration</p>
+                          <h5>Github Finder</h5>
+                          <p>React</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -30,11 +33,14 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-02" title>
-                      <img alt="" src="images/portfolio/console.jpg" />
+                      <img
+                        alt=""
+                        src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/contacts-512.png"
+                      />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Console</h5>
-                          <p>Web Development</p>
+                          <h5>Contact Keeper</h5>
+                          <p>React</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -46,11 +52,14 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-03" title>
-                      <img alt="" src="images/portfolio/judah.jpg" />
+                      <img
+                        alt=""
+                        src="https://www.shareicon.net/data/512x512/2016/07/13/795247_server_512x512.png"
+                      />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Judah</h5>
-                          <p>Webdesign</p>
+                          <h5>IT Logger</h5>
+                          <p>React</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -62,75 +71,14 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-04" title>
-                      <img alt="" src="images/portfolio/into-the-light.jpg" />
+                      <img
+                        alt=""
+                        src="https://lh3.googleusercontent.com/proxy/4Dj43HPYf8ZOQLObxs5gWYUiAjDGVIAX-8ZuFRrNIv7fv6XX2tWiTpNnKCWuVDrX1yn0Avhva8YZ8Y8MLNo3tYPCTYc82rDAaQltr2_UqrqY6iOhme6Lm75X"
+                      />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Into The Light</h5>
-                          <p>Photography</p>
-                        </div>
-                      </div>
-                      <div className="link-icon">
-                        <i className="icon-plus" />
-                      </div>
-                    </a>
-                  </div>
-                </div>{" "}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-05" title>
-                      <img alt="" src="images/portfolio/farmerboy.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Farmer Boy</h5>
-                          <p>Branding</p>
-                        </div>
-                      </div>
-                      <div className="link-icon">
-                        <i className="icon-plus" />
-                      </div>
-                    </a>
-                  </div>
-                </div>{" "}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-06" title>
-                      <img alt="" src="images/portfolio/girl.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Girl</h5>
-                          <p>Photography</p>
-                        </div>
-                      </div>
-                      <div className="link-icon">
-                        <i className="icon-plus" />
-                      </div>
-                    </a>
-                  </div>
-                </div>{" "}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-07" title>
-                      <img alt="" src="images/portfolio/origami.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Origami</h5>
-                          <p>Illustrration</p>
-                        </div>
-                      </div>
-                      <div className="link-icon">
-                        <i className="icon-plus" />
-                      </div>
-                    </a>
-                  </div>
-                </div>{" "}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-08" title>
-                      <img alt="" src="images/portfolio/retrocam.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Retrocam</h5>
-                          <p>Web Development</p>
+                          <h5>Basic Blockchain</h5>
+                          <p>Python</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -144,185 +92,126 @@ export default class Portfolio extends Component {
             <div id="modal-01" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="images/portfolio/modals/m-coffee.jpg"
+                src="https://icons-for-free.com/iconfiles/png/512/code+collaboration+github+network+round+social+icon-1320086084536018107.png"
                 alt=""
               />
               <div className="description-box">
-                <h4>Coffee Cup</h4>
+                <h4>Github Finder</h4>
                 <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean
-                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                  ipsum, nec sagittis sem nibh id elit.
+                  Search any Github profile, displays the user's details,
+                  followers, and repos.
                 </p>
                 <span className="categories">
                   <i className="fa fa-tag" />
-                  Branding, Webdesign
+                  React
                 </span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a
+                  href="https://githubfinder929292.netlify.app/"
+                  target="_blank"
+                >
+                  <i className="fa fa-chrome" />
+                </a>
+                <a
+                  href="https://github.com/Sajjaadfrancis/github-finder"
+                  target="_blank"
+                >
+                  <i className="fa fa-github" />
+                </a>
+                <a className="popup-modal-dismiss">
+                  <i className="fa fa-times" />
+                </a>
               </div>
             </div>
             <div id="modal-02" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="images/portfolio/modals/m-console.jpg"
+                src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/contacts-512.png"
                 alt=""
               />
               <div className="description-box">
-                <h4>Console</h4>
+                <h4>Contact Keeper</h4>
                 <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean
-                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                  ipsum, nec sagittis sem nibh id elit.
+                  Full stack MERN contact manager with React hooks, context, JWT
+                  authentication.
                 </p>
                 <span className="categories">
                   <i className="fa fa-tag" />
-                  Branding, Web Development
+                  React
                 </span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="" target="_blank">
+                  <i className="fa fa-chrome" />
+                </a>
+                <a
+                  href="https://github.com/Sajjaadfrancis/contact-keeper"
+                  target="_blank"
+                >
+                  <i className="fa fa-github" />
+                </a>
+                <a className="popup-modal-dismiss">
+                  <i className="fa fa-times" />
+                </a>
               </div>
             </div>
             <div id="modal-03" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="images/portfolio/modals/m-judah.jpg"
+                src="https://www.shareicon.net/data/512x512/2016/07/13/795247_server_512x512.png"
                 alt=""
               />
               <div className="description-box">
-                <h4>Judah</h4>
+                <h4>IT Logger</h4>
                 <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean
-                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                  ipsum, nec sagittis sem nibh id elit.
+                  Track IT department tasks and issues. Uses JSON-Server as a
+                  mock backend.
                 </p>
                 <span className="categories">
                   <i className="fa fa-tag" />
-                  Branding
+                  React
                 </span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="" target="_blank">
+                  <i className="fa fa-chrome" />
+                </a>
+                <a
+                  href="https://github.com/Sajjaadfrancis/it-logger"
+                  target="_blank"
+                >
+                  <i className="fa fa-github" />
+                </a>
+                <a className="popup-modal-dismiss">
+                  <i className="fa fa-times" />
+                </a>
               </div>
             </div>
             <div id="modal-04" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="images/portfolio/modals/m-intothelight.jpg"
+                src="https://lh3.googleusercontent.com/proxy/4Dj43HPYf8ZOQLObxs5gWYUiAjDGVIAX-8ZuFRrNIv7fv6XX2tWiTpNnKCWuVDrX1yn0Avhva8YZ8Y8MLNo3tYPCTYc82rDAaQltr2_UqrqY6iOhme6Lm75X"
                 alt=""
               />
               <div className="description-box">
-                <h4>Into the Light</h4>
-                <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean
-                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                  ipsum, nec sagittis sem nibh id elit.
-                </p>
+                <h4>Basic Blockchain</h4>
+                <p>A basic blockchain I built in Python.</p>
                 <span className="categories">
                   <i className="fa fa-tag" />
-                  Photography
+                  Python
                 </span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <div id="modal-05" className="popup-modal mfp-hide">
-              <img
-                className="scale-with-grid"
-                src="images/portfolio/modals/m-farmerboy.jpg"
-                alt=""
-              />
-              <div className="description-box">
-                <h4>Farmer Boy</h4>
-                <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean
-                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                  ipsum, nec sagittis sem nibh id elit.
-                </p>
-                <span className="categories">
-                  <i className="fa fa-tag" />
-                  Branding, Webdesign
-                </span>
-              </div>
-              <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <div id="modal-06" className="popup-modal mfp-hide">
-              <img
-                className="scale-with-grid"
-                src="images/portfolio/modals/m-girl.jpg"
-                alt=""
-              />
-              <div className="description-box">
-                <h4>Girl</h4>
-                <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean
-                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                  ipsum, nec sagittis sem nibh id elit.
-                </p>
-                <span className="categories">
-                  <i className="fa fa-tag" />
-                  Photography
-                </span>
-              </div>
-              <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <div id="modal-07" className="popup-modal mfp-hide">
-              <img
-                className="scale-with-grid"
-                src="images/portfolio/modals/m-origami.jpg"
-                alt=""
-              />
-              <div className="description-box">
-                <h4>Origami</h4>
-                <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean
-                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                  ipsum, nec sagittis sem nibh id elit.
-                </p>
-                <span className="categories">
-                  <i className="fa fa-tag" />
-                  Branding, Illustration
-                </span>
-              </div>
-              <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <div id="modal-08" className="popup-modal mfp-hide">
-              <img
-                className="scale-with-grid"
-                src="images/portfolio/modals/m-retrocam.jpg"
-                alt=""
-              />
-              <div className="description-box">
-                <h4>Retrocam</h4>
-                <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean
-                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                  ipsum, nec sagittis sem nibh id elit.
-                </p>
-                <span className="categories">
-                  <i className="fa fa-tag" />
-                  Webdesign, Photography
-                </span>
-              </div>
-              <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a
+                  href="https://github.com/Sajjaadfrancis/python-blockchain"
+                  target="_blank"
+                >
+                  <i className="fa fa-github" />
+                </a>
+                <a className="popup-modal-dismiss">
+                  <i className="fa fa-times" />
+                </a>
               </div>
             </div>
           </div>{" "}

@@ -11,38 +11,41 @@ export default class About extends Component {
             <div className="nine columns main-col">
               <h2>About Me</h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem. Ut enim ad minima veniam, quis nostrum
-                exercitationem ullam corporis suscipit laboriosam.
+                I am a problem solver, quick thinker, and work magic behind a
+                PC. I am friendly, have a great sense of humour, and get along
+                with everyone. I love learning new things, especially technology
+                wise. I also love keeping up to date with new apps, frameworks,
+                and languages.
+              </p>
+              <h2>Where My Passion For Tech Came From</h2>
+              <p>
+                It first started when I got my first mobile phone and PC. I was
+                always interested in how apps were built and always dreamt of
+                building my own one day. I've always kept up to date with the
+                latest tech whether it be scouting the web or watching tech
+                Youtube channels. I love both software and hardware when it
+                comes to PCs.
               </p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>Jonathan Doe</span>
+                    <span>Sajjaad Francis</span>
                     <br />
                     <span>
-                      1600 Amphitheatre Parkway
+                      38A Harpford Avenue
                       <br />
-                      Mountain View, CA 94043 US
+                      Wynberg, Cape Town
                     </span>
                     <br />
-                    <span>(123)456-7890</span>
+                    <span>076 421 8771</span>
                     <br />
-                    <span>anyone@website.com</span>
+                    <span>sajjaadfrancis@gmail.com</span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="#" className="button">
+                    <a href="/" className="button">
                       <i className="fa fa-download" />
                       Download Resume
                     </a>
