@@ -8,43 +8,50 @@ export default class Footer extends Component {
             <div className="twelve columns">
               <ul className="social-links">
                 <li>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a
+                    href="https://twitter.com/Sajjaad63583738"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-google-plus" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a
+                    href="https://www.linkedin.com/in/sajjaad-francis-01507619b/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a
+                    href="https://www.instagram.com/sajjaadfrancis/?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-dribbble" />
+                  <a
+                    href="https://codepen.io/sajjaadfrancis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-codepen" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-skype" />
+                  <a
+                    href="https://github.com/Sajjaadfrancis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-github" />
                   </a>
                 </li>
-              </ul>
-              <ul className="copyright">
-                <li>Design by </li>
               </ul>
             </div>
             <div id="go-top">

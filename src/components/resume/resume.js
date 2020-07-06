@@ -4,8 +4,6 @@ export default class Resume extends Component {
     return (
       <React.Fragment>
         <section id="resume">
-          {/* Education
------------------------------------------------ */}
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -15,48 +13,43 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>University of Life</h3>
+                  <h3>Islamia College</h3>
                   <p className="info">
-                    Master in Graphic Design <span>•</span>{" "}
-                    <em className="date">April 2007</em>
+                    High School <span>•</span>{" "}
+                    <em className="date">2010 - 2014</em>
                   </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate
-                    eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
+                  <p>Matriculated in 2014 from Islamia College.</p>
                 </div>
               </div>{" "}
               {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>School of Cool Designers</h3>
+                  <h3>Varsity College</h3>
                   <p className="info">
-                    B.A. Degree in Graphic Design <span>•</span>{" "}
-                    <em className="date">March 2003</em>
+                    Software Development <span>•</span>{" "}
+                    <em className="date">2016 - 2018</em>
                   </p>
                   <p>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida
-                    nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec
-                    sagittis sem nibh id elit. Duis sed odio sit amet nibh
-                    vulputate cursus a sit amet mauris. Morbi accumsan ipsum
-                    velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
-                    Sed non mauris vitae erat
+                    Spent two years studying software development with the main
+                    languages being Java and C#.
                   </p>
                 </div>
               </div>{" "}
-              {/* item end */}
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Life Choices</h3>
+                  <p className="info">
+                    Software Development <span>•</span>{" "}
+                    <em className="date">Feb 2020 - Aug 2020</em>
+                  </p>
+                  <p>
+                    6 month coding bootcamp with the main languages being
+                    HTML/CSS, JavaScript and Python.
+                  </p>
+                </div>
+              </div>{" "}
             </div>{" "}
-            {/* main-col end */}
           </div>{" "}
-          {/* End Education */}
-          {/* Work
------------------------------------------------ */}
           <div className="row work">
             <div className="three columns header-col">
               <h1>
@@ -66,46 +59,35 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Awesome Design Studio</h3>
+                  <h3>Alpha Zulu Projects</h3>
                   <p className="info">
-                    Senior UX Designer <span>•</span>{" "}
-                    <em className="date">March 2010 - Present</em>
+                    Assistant <span>•</span>{" "}
+                    <em className="date">Feb 2015 - Nov 2015</em>
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate
-                    eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                    Spent some time job shadowing at an architectural company.
+                    Learnt how to draw up plans using AutoCad. Site surveyed
+                    many different Engen One Stops around the Western Province.
                   </p>
                 </div>
               </div>{" "}
-              {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Super Cool Studio</h3>
+                  <h3>Amazon</h3>
                   <p className="info">
-                    UX Designer <span>•</span>{" "}
-                    <em className="date">March 2007 - February 2010</em>
+                    Amazon Business Customer Service Associate <span>•</span>{" "}
+                    <em className="date">May 2019 - Jan 2020</em>
                   </p>
                   <p>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida
-                    nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec
-                    sagittis sem nibh id elit. Duis sed odio sit amet nibh
-                    vulputate cursus a sit amet mauris. Morbi accumsan ipsum
-                    velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
-                    Sed non mauris vitae erat
+                    Spent a few months at Amazon receiving calls, chats, and
+                    emails from Amazon's business customers, solving any
+                    problems which were account related, product related,
+                    payment related, or tax related.
                   </p>
                 </div>
               </div>{" "}
-              {/* item end */}
             </div>{" "}
-            {/* main-col end */}
           </div>{" "}
-          {/* End Work */}
           {/* Skills
 ----------------------------------------------- */}
           <div className="row skill">
@@ -116,47 +98,39 @@ export default class Resume extends Component {
             </div>
             <div className="nine columns main-col">
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
+                Throughout my programming journey I have learnt many skills.
+                Below are my skill set statistics:
               </p>
               <div className="bars">
                 <ul className="skills">
                   <li>
-                    <span className="bar-expand photoshop" />
-                    <em>Photoshop</em>
-                  </li>
-                  <li>
-                    <span className="bar-expand illustrator" />
-                    <em>Illustrator</em>
-                  </li>
-                  <li>
-                    <span className="bar-expand wordpress" />
-                    <em>Wordpress</em>
+                    <span className="bar-expand html" />
+                    <em>HTML</em>
                   </li>
                   <li>
                     <span className="bar-expand css" />
                     <em>CSS</em>
                   </li>
                   <li>
-                    <span className="bar-expand html5" />
-                    <em>HTML5</em>
+                    <span className="bar-expand javascript" />
+                    <em>JavaScript</em>
                   </li>
                   <li>
-                    <span className="bar-expand jquery" />
-                    <em>jQuery</em>
+                    <span className="bar-expand react" />
+                    <em>React</em>
+                  </li>
+                  <li>
+                    <span className="bar-expand python" />
+                    <em>Python</em>
+                  </li>
+                  <li>
+                    <span className="bar-expand mysql" />
+                    <em>MySql</em>
                   </li>
                 </ul>
               </div>
-              {/* end skill-bars */}
             </div>{" "}
-            {/* main-col end */}
           </div>{" "}
-          {/* End skills */}
         </section>
       </React.Fragment>
     );

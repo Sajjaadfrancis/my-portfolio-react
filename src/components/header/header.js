@@ -29,7 +29,7 @@ export default class Header extends Component {
               </li>
               <li>
                 <a className="smoothscroll" href="#portfolio">
-                  Works
+                  Projects
                 </a>
               </li>
               <li>
@@ -46,56 +46,63 @@ export default class Header extends Component {
           </nav>{" "}
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
+              <h1 className="responsive-headline">Sajjaad Francis</h1>
               <h3>
-                I'm a Manila based <span>graphic designer</span>,{" "}
-                <span>illustrator</span> and <span>webdesigner</span> creating
-                awesome and effective visual identities for companies of all
-                sizes around the globe. Let's{" "}
+                <span>HTML / CSS | JavaScript | React | Python</span>
+                <hr />
+                Let's{" "}
                 <a className="smoothscroll" href="#about">
-                  start scrolling
+                  start scrolling{" "}
                 </a>
                 and learn more{" "}
                 <a className="smoothscroll" href="#about">
                   about me
                 </a>
-                .
               </h3>
-              <hr />
               <ul className="social">
                 <li>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a
+                    href="https://twitter.com/Sajjaad63583738"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-google-plus" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a
+                    href="https://www.linkedin.com/in/sajjaad-francis-01507619b/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a
+                    href="https://www.instagram.com/sajjaadfrancis/?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-dribbble" />
+                  <a
+                    href="https://codepen.io/sajjaadfrancis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-codepen" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-skype" />
+                  <a
+                    href="https://github.com/Sajjaadfrancis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-github" />
                   </a>
                 </li>
               </ul>
