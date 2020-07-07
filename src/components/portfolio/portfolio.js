@@ -73,7 +73,7 @@ export default class Portfolio extends Component {
                     <a href="#modal-04" title>
                       <img
                         alt=""
-                        src="https://lh3.googleusercontent.com/proxy/4Dj43HPYf8ZOQLObxs5gWYUiAjDGVIAX-8ZuFRrNIv7fv6XX2tWiTpNnKCWuVDrX1yn0Avhva8YZ8Y8MLNo3tYPCTYc82rDAaQltr2_UqrqY6iOhme6Lm75X"
+                        src="https://www.cryptoestate.net/img/blockchain.png"
                       />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -191,7 +191,7 @@ export default class Portfolio extends Component {
             <div id="modal-04" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="https://lh3.googleusercontent.com/proxy/4Dj43HPYf8ZOQLObxs5gWYUiAjDGVIAX-8ZuFRrNIv7fv6XX2tWiTpNnKCWuVDrX1yn0Avhva8YZ8Y8MLNo3tYPCTYc82rDAaQltr2_UqrqY6iOhme6Lm75X"
+                src="hhttps://www.cryptoestate.net/img/blockchain.png"
                 alt=""
               />
               <div className="description-box">
