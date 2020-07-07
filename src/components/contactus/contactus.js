@@ -35,7 +35,7 @@ export default class ContactUs extends Component {
                       type="text"
                       size={35}
                       id="contactName"
-                      name="contactName"
+                      name="name"
                     />
                   </div>
                   <div>
@@ -46,7 +46,7 @@ export default class ContactUs extends Component {
                       type="text"
                       size={35}
                       id="contactEmail"
-                      name="contactEmail"
+                      name="_replyto"
                     />
                   </div>
                   <div>
@@ -71,7 +71,7 @@ export default class ContactUs extends Component {
                     />
                   </div>
                   <div>
-                    <button className="submit" value="Send">Submit</button>
+                    <button className="submit" value="Send" type="submit">Submit</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
