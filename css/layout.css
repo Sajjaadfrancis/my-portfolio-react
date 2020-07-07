@@ -24,7 +24,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 900px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/wp2729921.gif) no-repeat top center;
@@ -813,7 +813,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color: #dee7e7;
 }
 
 #contact h4 {
@@ -833,7 +833,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: #dce9e9;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -842,7 +842,7 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
+	color: rgb(238, 230, 230);
 	background: #373233;
 	margin-bottom: 42px;
 	border: 0;
@@ -855,7 +855,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #e5f1f1;
+	background-color: #121313;
 }
 #contact button.submit {
 	text-transform: uppercase;
