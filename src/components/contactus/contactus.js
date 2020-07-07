@@ -20,7 +20,12 @@ export default class ContactUs extends Component {
           <div className="row">
             <div className="eight columns">
               {/* form */}
-              <form action method="post" id="contactForm" name="contactForm">
+              <form
+                action="https://formspree.io/sajjaadfrancis@gmail.com"
+                method="POST"
+                id="contactForm"
+                name="contactForm"
+              >
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -28,7 +33,6 @@ export default class ContactUs extends Component {
                     </label>
                     <input
                       type="text"
-                      defaultValue
                       size={35}
                       id="contactName"
                       name="contactName"
@@ -40,7 +44,6 @@ export default class ContactUs extends Component {
                     </label>
                     <input
                       type="text"
-                      defaultValue
                       size={35}
                       id="contactEmail"
                       name="contactEmail"
@@ -50,7 +53,6 @@ export default class ContactUs extends Component {
                     <label htmlFor="contactSubject">Subject</label>
                     <input
                       type="text"
-                      defaultValue
                       size={35}
                       id="contactSubject"
                       name="contactSubject"
