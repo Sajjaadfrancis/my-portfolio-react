@@ -71,7 +71,7 @@ export default class ContactUs extends Component {
                     />
                   </div>
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit" value="Send">Submit</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
