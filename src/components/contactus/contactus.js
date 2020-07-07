@@ -21,7 +21,7 @@ export default class ContactUs extends Component {
             <div className="eight columns">
               {/* form */}
               <form
-                action="https://formspree.io/sajjaadfrancis@gmail.com"
+                action="https://formspree.io/myynnbgd"
                 method="POST"
                 id="contactForm"
                 name="contactForm"
