@@ -13,12 +13,15 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Islamia College</h3>
+                  <h3>Life Choices</h3>
                   <p className="info">
-                    High School <span>•</span>{" "}
-                    <em className="date">2010 - 2014</em>
+                    Software Development <span>•</span>{" "}
+                    <em className="date">Feb 2020 - Aug 2020</em>
                   </p>
-                  <p>Matriculated in 2014 from Islamia College.</p>
+                  <p>
+                    6 month coding bootcamp with the main languages being
+                    HTML/CSS, JavaScript and Python.
+                  </p>
                 </div>
               </div>{" "}
               <div className="row item">
@@ -36,15 +39,12 @@ export default class Resume extends Component {
               </div>{" "}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Life Choices</h3>
+                  <h3>Islamia College</h3>
                   <p className="info">
-                    Software Development <span>•</span>{" "}
-                    <em className="date">Feb 2020 - Aug 2020</em>
+                    High School <span>•</span>{" "}
+                    <em className="date">2010 - 2014</em>
                   </p>
-                  <p>
-                    6 month coding bootcamp with the main languages being
-                    HTML/CSS, JavaScript and Python.
-                  </p>
+                  <p>Matriculated in 2014 from Islamia College.</p>
                 </div>
               </div>{" "}
             </div>{" "}
@@ -58,20 +58,6 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Alpha Zulu Projects</h3>
-                  <p className="info">
-                    Assistant <span>•</span>{" "}
-                    <em className="date">Feb 2015 - Nov 2015</em>
-                  </p>
-                  <p>
-                    Spent some time job shadowing at an architectural company.
-                    Learnt how to draw up plans using AutoCad. Site surveyed
-                    many different Engen One Stops around the Western Province.
-                  </p>
-                </div>
-              </div>{" "}
-              <div className="row item">
-                <div className="twelve columns">
                   <h3>Amazon</h3>
                   <p className="info">
                     Amazon Business Customer Service Associate <span>•</span>{" "}
@@ -82,6 +68,20 @@ export default class Resume extends Component {
                     emails from Amazon's business customers, solving any
                     problems which were account related, product related,
                     payment related, or tax related.
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Alpha Zulu Projects</h3>
+                  <p className="info">
+                    Assistant <span>•</span>{" "}
+                    <em className="date">Feb 2015 - Nov 2015</em>
+                  </p>
+                  <p>
+                    Spent some time job shadowing at an architectural company.
+                    Learnt how to draw up plans using AutoCad. Site surveyed
+                    many different Engen One Stops around the Western Province.
                   </p>
                 </div>
               </div>{" "}

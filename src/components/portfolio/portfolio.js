@@ -142,7 +142,10 @@ export default class Portfolio extends Component {
                 </span>
               </div>
               <div className="link-box">
-                <a href="" target="_blank">
+                <a
+                  href="https://mysterious-ravine-24356.herokuapp.com/"
+                  target="_blank"
+                >
                   <i className="fa fa-chrome" />
                 </a>
                 <a

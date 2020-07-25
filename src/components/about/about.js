@@ -28,6 +28,23 @@ export default class About extends Component {
               </p>
               <div className="row">
                 <div className="columns contact-details">
+                  <h2>Hobbies</h2>
+                  <p className="address">
+                    <span>• Golf</span>
+                    <br />
+                    <span>
+                      • Soccer, Fives
+                      <br />• Mobile, PC, and Console Gaming
+                    </span>
+                    <br />
+                    <span>• Morning and Sunset Hikes</span>
+                    <br />
+                    <span>• Jogging</span>
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="row">
+                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
                     <span>Sajjaad Francis</span>

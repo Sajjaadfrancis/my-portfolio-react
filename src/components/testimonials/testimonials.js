@@ -17,6 +17,18 @@ export default class Testimonials extends Component {
                     <li>
                       <blockquote>
                         <p>
+                          Sajjaad is sociable and well-mannered. He has
+                          demonstrated strong analytical skills and attention to
+                          detail in his projects during the course.
+                        </p>
+                        <cite>
+                          Godwin Dzvapatsva | Head of Curriculum and Learning
+                        </cite>
+                      </blockquote>
+                    </li>{" "}
+                    <li>
+                      <blockquote>
+                        <p>
                           Sajjaad is a great person to have on one's team. He
                           has great work ethics and problem solving skills. He
                           analyzes things well and takes action to get things
@@ -27,7 +39,6 @@ export default class Testimonials extends Component {
                         <cite>Chad Hoosain | Peer</cite>
                       </blockquote>
                     </li>{" "}
-                    {/* slide ends */}
                     <li>
                       <blockquote>
                         <p>
