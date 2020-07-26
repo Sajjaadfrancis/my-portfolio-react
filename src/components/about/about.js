@@ -62,9 +62,9 @@ export default class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="/" className="button">
+                    <a href="sajjaadfranciscv.docx" className="button">
                       <i className="fa fa-download" />
-                      Download Resume
+                      Resume
                     </a>
                   </p>
                 </div>
