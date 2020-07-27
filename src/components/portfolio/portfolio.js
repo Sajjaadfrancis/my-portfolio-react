@@ -197,7 +197,7 @@ export default class Portfolio extends Component {
             <div id="modal-04" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="hhttps://www.cryptoestate.net/img/blockchain.png"
+                src="https://www.cryptoestate.net/img/blockchain.png"
                 alt=""
               />
               <div className="description-box">
