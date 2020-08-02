@@ -178,7 +178,7 @@ export default class Portfolio extends Component {
               </div>
               <div className="link-box">
                 <a
-                  href="https://sajjaadfrancis.github.io/it-logger/"
+                  href="https://Sajjaadfrancis.github.io/it-logger/"
                   target="_blank"
                 >
                   <i className="fa fa-chrome" />
