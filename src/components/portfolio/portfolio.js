@@ -220,6 +220,32 @@ export default class Portfolio extends Component {
                 </a>
               </div>
             </div>
+            <div id="modal-04" className="popup-modal mfp-hide">
+              <img
+                className="scale-with-grid"
+                src="https://images.vexels.com/media/users/3/157585/isolated/preview/7bc98374c3d1c1a347c9c69a9d1f3e00-speech-bubble-icon-by-vexels.png"
+                alt=""
+              />
+              <div className="description-box">
+                <h4>Chatsapp</h4>
+                <p>A chat app built with React and Firebase.</p>
+                <span className="categories">
+                  <i className="fa fa-tag" />
+                  React
+                </span>
+              </div>
+              <div className="link-box">
+                <a
+                  href="https://github.com/Sajjaadfrancis/react-chat"
+                  target="_blank"
+                >
+                  <i className="fa fa-github" />
+                </a>
+                <a className="popup-modal-dismiss">
+                  <i className="fa fa-times" />
+                </a>
+              </div>
+            </div>
           </div>{" "}
         </section>
       </React.Fragment>
