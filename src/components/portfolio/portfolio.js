@@ -89,7 +89,7 @@ export default class Portfolio extends Component {
                 </div>{" "}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-04" title>
+                    <a href="#modal-05" title>
                       <img
                         alt=""
                         src="https://images.vexels.com/media/users/3/157585/isolated/preview/7bc98374c3d1c1a347c9c69a9d1f3e00-speech-bubble-icon-by-vexels.png"
@@ -239,7 +239,7 @@ export default class Portfolio extends Component {
                 </a>
               </div>
             </div>
-            <div id="modal-04" className="popup-modal mfp-hide">
+            <div id="modal-05" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
                 src="https://images.vexels.com/media/users/3/157585/isolated/preview/7bc98374c3d1c1a347c9c69a9d1f3e00-speech-bubble-icon-by-vexels.png"
